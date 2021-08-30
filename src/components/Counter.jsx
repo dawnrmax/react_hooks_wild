@@ -22,7 +22,7 @@ function Counter() {
       <button onClick={() => setCount(count - 1)}>
         -1
       </button>
-      <input onChange={updateCounter}></input>
+      <input type="number" onChange={updateCounter}></input>
     </div>
   );
 }
